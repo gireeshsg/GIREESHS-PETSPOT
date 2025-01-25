@@ -1,0 +1,81 @@
+.cardt-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+  padding: 20px;
+}
+
+.petd-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  width: 250px; /* Set a fixed width for cards */
+}
+
+.petd-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.petd-card-image-container {
+  height: 230px; /* Fixed height for images */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.petd-card-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.petd-card-details {
+  padding: 15px;
+  text-align: center;
+}
+
+.petd-card-brand {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.petd-card-quantity {
+  color: #777;
+  margin: 5px 0;
+}
+
+.petd-card-category {
+  font-weight: bold;
+  color: #555;
+  margin: 5px 0;
+}
+
+.petd-card-price {
+  font-size: 1.25rem;
+  color: #e67e22; /* Stylish price color */
+  margin: 10px 0;
+}
+
+.petd-card-buttons {
+  margin-top: 15px;
+}
+
+.viewy-button {
+  background-color: #3498db; /* Stylish button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.viewy-button:hover {
+  background-color: #2980b9; /* Darker shade on hover */
+}
