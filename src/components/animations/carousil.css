@@ -1,0 +1,53 @@
+/* Navbar.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Light background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .navbar-logo .logo {
+    height: 50px; /* Adjust height as needed */
+  }
+  
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px; /* Space between button and icons */
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 25px; /* Adjust size as needed */
+    margin-left: 15px; /* Space between icons */
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    opacity: 0.7; /* Slightly dim icons on hover */
+  }
+  

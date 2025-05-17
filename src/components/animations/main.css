@@ -1,0 +1,183 @@
+/* /* 
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .background-image {
+    display: inline-block;
+    
+    
+  }
+  
+  .overlay-button {
+    position: absolute;
+    bottom: 100px; 
+    right: 70px; 
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color:white;
+    border: none;
+    font-size:larger;
+    border-radius: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1; 
+  }
+  
+  .overlay-button:hover {
+    background-color:crimson; 
+  }
+  
+
+ .navbarr {
+ 
+  background-color:#00000080; 
+  color:black;
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  border: none;
+    
+  
+}
+.navbarr-container {
+ 
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1800px;
+  margin: 0 ;
+
+  padding: 0 0px;
+}
+.nav-menuu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  margin: auto;
+
+}
+.nav-itemm {
+
+  
+  margin: 10px;
+  display: flex;
+ 
+}
+.nav-itemm a {
+  -webkit-text-fill-color: black;
+  text-decoration: none;
+  font-weight: 700;
+
+}
+.nav-item a:hover {
+  color: white;
+}
+
+
+
+.main{
+ 
+  height: auto;
+  width: 100%;
+  margin: auto;
+  
+  
+  
+}
+.travel{
+ text-align: center;
+ color: lightgoldenrodyellow;
+}
+ */
+ /* B
+/* Main Content */
+.main-content {
+    background-color:white;
+    display: flex;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+  }
+  
+  .image-container {
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+   
+   
+    object-fit:none;
+    /* filter: brightness(70%); Darken the image slightly */
+    
+  }
+  
+  /* .image-container:hover img {
+   /* Lighten the image on hover */
+   
+  
+  .text-container {
+  
+    background-color:white; /* White background */
+    color:brown; /* Dark text color for readability */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-left: 0px solid #ddd; /* Light border between image and text */
+  }
+  
+  .text-container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color:orange; /* Darker text color */
+  }
+  
+  .text-container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color:brown; /* Light grey color for the paragraph */
+    max-width: 600px; /* Limit the width for readability */
+  }
+  
+  .explore-button {
+    background-color:green; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .explore-button:hover {
+    background-color:crimson; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+  .hai{
+    background-color: chocolate;
+  }
+  .navbarr{
+    background-color: brown;
+  }
+  .button-1{
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 9px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.4s;
+    color:white;
+    border: none;
+   
+  }
+  
+   

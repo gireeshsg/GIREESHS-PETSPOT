@@ -1,0 +1,30 @@
+.cart-link {
+    position: relative; /* Set to relative for positioning bubble */
+    display: inline-block; /* To align properly */
+/* Adjust as needed for spacing */
+  }
+  
+  .cart-bubble {
+    position: absolute; /* Absolute positioning for the bubble */
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 14px;
+    padding: 2px 6px; /* Adjust padding for better appearance */
+    top: -8px; /* Adjust to position above the icon */
+    right: -10px; /* Adjust to position to the right of the icon */
+  }
+  
+  .cart-icon {
+    color: white; /* Icon color */
+    font-size: 24px; /* Icon size */
+    cursor: pointer; /* Pointer on hover */
+    transition: transform 0.3s ease; /* Smooth hover transition */
+    
+  }
+  
+  .cart-icon:hover {
+    transform: scale(1.1); /* Slight scale on hover */
+  }
+  
