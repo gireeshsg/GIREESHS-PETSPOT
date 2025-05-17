@@ -1,0 +1,48 @@
+.adminLogin-main {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .adminLogin-head {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .adminLogin-Form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .adminLogin-Label {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .adminLogin-Input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .adminLogin-Btn {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .adminLogin-Btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add more styles as needed */
+  

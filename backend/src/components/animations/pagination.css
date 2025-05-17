@@ -1,0 +1,43 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.pagination-item {
+    margin: 0 4px;
+}
+
+.pagination-item button {
+    background: #f8f8f8; /* Soft background */
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.pagination-item.active button {
+    background-color: brown ;/* Classic green */
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow */
+}
+
+.pagination-item button:hover {
+    background-color: #e0e0e0; /* Light grey on hover */
+    border-color: #888;
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.pagination-item button:focus {
+    outline: none; /* Remove default focus outline */
+    border-color:brown; /* Green border on focus */
+}

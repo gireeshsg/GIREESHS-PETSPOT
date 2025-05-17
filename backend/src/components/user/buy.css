@@ -1,0 +1,326 @@
+.buy-now {
+  font-family: 'Arial', sans-serif;
+
+  min-height: 100vh;
+  padding: 20px;
+  
+}
+
+.buy-now-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+
+
+  border-radius: 10px;
+}
+
+.product-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+}
+
+.product-details-container {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+
+}
+
+.product-price {
+  font-size: 20px;
+  color: #2c7d59;
+
+}
+
+.product-description {
+  font-size: 16px;
+  color:#333;
+  margin-right: 200px;
+
+
+}
+
+.product-author,
+.stock {
+  font-size: 20px;
+  color:#f39c12;
+  font-weight: 900px;
+}
+
+.out-of-stock {
+  color: red;
+  font-weight: bold;
+}
+
+.productt-imageu-container {
+  width: 300px;
+  height: 200px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  margin-left: 100px;
+  margin-top: 250px;
+}
+
+.productu-imageu {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
+}
+
+.address-section {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.address-box {
+  border-radius: 10px;
+  width: 100%; /* Reduced width for shorter form */
+  max-width: 400px; /* Maximum width of the address box */
+  margin: 0 auto; 
+ 
+  /* Center the address box */
+}
+
+.address-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+.address-box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 400px;
+}
+
+.address-box input:focus {
+  border-color: #2c7d59;
+  outline: none;
+  
+}
+
+/* To make inputs shorter and more compact */
+.address-box input {
+  width: 100%;  /* Make the width of the input fields less wide */
+  max-width: 400px;
+/* Restrict the width of each input to avoid stretching */
+}
+
+.quantity-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.quantity-input {
+  width: 80px;  /* Reduced width */
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.confirm-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.confirm-button {
+  padding: 12px 40px;
+  font-size: 16px;
+  background-color:brown;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 500px; 
+  margin-top: 20px;
+  /* Ensure the confirm button is also within a reasonable width */
+}
+
+.confirm-button:hover {
+  background-color: #1f5b42;
+}
+
+
+.confirm-button:hover {
+  background-color: #1f5b42;
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.payment-option-button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #f1f1f1;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.payment-option-button:hover {
+  background-color:#2c7d59;
+}
+
+.payment-option-button svg {
+  font-size: 20px;
+}
+
+.payment-confirmation {
+  margin-top: 20px;
+}
+
+.card-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.success-alert {
+  background-color: #2c7d59;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.success-alert.order {
+  background-color: #f39c12;
+}
+
+.success-alert.payment {
+  background-color: #2ecc71;
+}
+
+.alert-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.alert-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+.quantity-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.pricu{
+  font-size: 20px;
+  color: #2c7d59;
+  font-weight: bolder;
+}
+.quantity-box label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+ 
+}
+
+.quantity-button {
+  width: 25px;
+  height: 25px;
+  background-color: #f1f1f1;
+  border: 2px solid #ccc;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.quantity-button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.quantity-button:hover:not(:disabled) {
+  background-color: #4CAF50; /* Green when hovered */
+  color: white;
+  transform: scale(1.1); /* Slight scale effect */
+}
+
+.quantity-button:active:not(:disabled) {
+  transform: scale(0.95); /* Smaller button when clicked */
+}
+
+.quantity-input {
+  width: 40px;
+  height: 15px;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  outline: none;
+}
+
+.quantity-input:focus {
+  border-color: #4CAF50;
+}
+
+.quantity-input::-webkit-outer-spin-button,
+.quantity-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

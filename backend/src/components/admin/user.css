@@ -1,0 +1,81 @@
+.order-management-container {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners for the container */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #343a40; /* Dark text for title */
+  text-align: center;
+}
+
+.loading-message {
+  text-align: center;
+  font-size: 18px;
+  color: #007bff; /* Primary color for loading message */
+}
+
+.error-message {
+  color: #dc3545; /* Danger color for error messages */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse; /* Ensure borders collapse */
+  margin-top: 10px;
+}
+
+.order-table th,
+.order-table td {
+  border: 1px solid #dee2e6; /* Light gray border color */
+  padding: 12px;
+  text-align: left;
+}
+
+.order-table th {
+  background-color: #e9ecef; /* Light gray background for headers */
+  font-weight: bold;
+  color: #495057; /* Darker text for headers */
+}
+
+.order-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Zebra striping for rows */
+}
+
+.order-table tr:hover {
+  background-color: #e2e6ea; /* Highlight on hover */
+}
+
+.productr-image {
+  max-width: 50px; /* Limit image size */
+  border-radius: 4px; /* Slight rounding for images */
+}
+
+.category {
+  font-weight: bold;
+  color: #28a745; /* Green for categories */
+}
+
+.action-button {
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.action-button:disabled {
+  background-color: #6c757d; /* Disabled button color */
+  cursor: not-allowed; /* Indicate it's not clickable */
+}

@@ -1,0 +1,91 @@
+.about-page {
+  background-color: #f4f6f7;
+  font-family: 'Arial', sans-serif;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  color: #2c3e50;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin-top: 10px;
+}
+
+.section-container {
+  margin-bottom: 40px;
+}
+
+.offer-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #34495e;
+}
+
+h2, h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+ul li {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin: 10px 0;
+}
+
+.cta-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cta-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 200px;
+}
+
+.cta-button:hover {
+  background-color: #c0392b;
+}
+
+.breeds-section, .why-choose-section, .promise-section {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.breeds-section ul, .why-choose-section ul, .promise-section ul {
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+.breeds-section li, .why-choose-section li, .promise-section li {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 12px;
+}

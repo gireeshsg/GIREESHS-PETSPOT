@@ -1,0 +1,54 @@
+.payment-page {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-methods {
+    margin-bottom: 20px;
+  }
+  
+  .card-details {
+    margin-bottom: 20px;
+  }
+  
+  .card-details input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .pay-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pay-button:hover {
+    background-color: #218838;
+  }
+  .payment-success-animation {
+    display: inline-block;
+    font-size: 24px;
+    color: green;
+    margin-top: 10px;
+    animation: pulse 0.6s ease-in-out infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  
